@@ -1,6 +1,8 @@
 package domain;
 
 public class Like {
-    private String count;
-    private String userLikes;
+    private int count;
+    private boolean userLikes;
+    private boolean canLike;
+    private boolean canPublish;
 }
